@@ -1887,3 +1887,14 @@ ul.accordion-list {
       flex-direction: row;
   }
 }
+
+
+
+
+
+
+
+.disabled_options{
+  pointer-events: none;
+  cursor: not-allowed;
+}
