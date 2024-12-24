@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Fund</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <img src="/assets/Website_logo_red.png" alt="Logo" height="40">
+            </div>
+            <ul class="nav-items">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#Timeline">Timeline</a></li>
+                <li><a href="#Events">Events</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="login-button">
+                <button>Login</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <button class="close-menu">&times;</button>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#Timeline">Timeline</a></li>
+            <li><a href="#Events">Events</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <button>Login</button>
+    </div>
+
+    <section class="fullscreen-slideshow">
+        <div class="slide-container">
+            <div class="slide active">
+                <div class="slide-content">
+                    <h2>Climate Resilient Infrastructure Challenge Fund</h2>
+                    <p>The Challenge Fund Aims to Drive Innovation in Climate-Resilient Infrastructure Across Pakistan
+                    </p>
+                    <button class="cta-button">Apply Now</button>
+                </div>
+                <video autoplay muted loop>
+                    <source src="assets/hero_video_2.mp4" type="video/mp4" width="1920" height="1080">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Collaborate</h2>
+                    <p>Work together to achieve greatness</p>
+                    <button class="cta-button">Learn More</button>
+                </div>
+                <img src="assets/hero_img_1.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <h2>Elevate</h2>
+                    <p>Take your projects to new heights</p>
+                    <button class="cta-button">Learn More</button>
+                </div>
+                <img src="assets/hero_img_2.jpg" alt="Slide 3">
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="prev-button" aria-label="Previous slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m15 18-6-6 6-6" />
+                </svg>
+            </button>
+            <button class="next-button" aria-label="Next slide">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="m9 18 6-6-6-6" />
+                </svg>
+            </button>
+        </div>
+        <div class="indicators"></div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </section>
+
+
+    <section id="about-us" class="about-us">
+        <div class="about-us-container">
+            <div class="about-us-content">
+                <div class="about-us-image">
+                    <img src="assets/about_us.jpg" alt="About Us" width="600" height="400">
+                </div>
+                <div class="about-us-text">
+                    <h2>About Us</h2>
+                    <p>
+                        The Climate Resilient Infrastructure Challenge Fund aims to strengthen climate resilience in
+                        Pakistan by
+                        driving mission-focused innovation through infrastructure projects in Khyber Pakhtunkhwa (KP),
+                        Punjab, and Islamabad Capital Territory (ICT). Targeting critical vulnerabilities such as
+                        flood-prone
+                        urban centers, water-scarce agricultural areas, and peri-urban zones facing extreme weather, the
+                        fund
+                        addresses pressing climate challenges while aligning with Pakistan's National Adaptation Plan
+                        (NAP) to
+                        deliver adaptive, high-impact solutions.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                    </div>
+                    <div class="sponsors">
+                        <h6>Sponsored by</h6>
+                        <div class="sponsor-logos">
+                            <img src="assets/German Cooperation Logo.jpg" alt="Sponsor 1"
+                                style="mix-blend-mode: multiply;">
+                            <img src="assets/Implemented by GIZ logo.png" alt="Sponsor 2">
+                        </div>
+                    </div>
+                    <div class="sponsors">
+                        <h6>Implemented by</h6>
+                        <div class="sponsor-logos">
+                            <img src="assets/ASI24_OFF-BLACK_Full logo footer PRINT 300dpi CMYK High Res.png"
+                                alt="Sponsor 1">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="priority-sectors" class="priority-sectors">
+        <div class="priority-sectors-container">
+            <div class="priority-sectors-content">
+                <h2>Priority Sectors</h2>
+                <p>
+                    Our expertise spans a wide range of industries, enabling us to
+                    deliver tailored solutions that meet the unique needs of our
+                    clients. We work closely with organizations in the following
+                    sectors to drive innovation and growth.
+                </p>
+                <div class="sector-cards">
+                    <div class="sector-card">
+                        <span></span>
+                        <img src="assets/priority_point_1.jpg" alt="Sector 1" width="300" height="200">
+                        <div class="sectors-card-info-section">
+                            <img src="assets/priority_point_icon_1.png" alt="logo">
+                            <h3>Agriculture</h3>
+                            <p>
+                                Transforming the healthcare industry through technology
+                                and innovation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <span></span>
+                        <img src="assets/priority_point_2.jpg" alt="Sector 2" width="300" height="200">
+                        <div class="sectors-card-info-section">
+                            <img src="assets/priority_point_icon_2.png" alt="logo">
+                            <h3>Water Management</h3>
+                            <p>
+                                Revolutionizing financial services with cutting-edge
+                                solutions.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <span></span>
+                        <img src="assets/priority_point_3.jpg" alt="Sector 3" width="300" height="200">
+                        <div class="sectors-card-info-section">
+                            <img src="assets/priority_point_icon_3.png" alt="logo">
+                            <h3>Urban Resilience</h3>
+                            <p>
+                                Enhancing learning experiences through technology and
+                                innovation.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="sector-card">
+                        <span></span>
+                        <img src="assets/priority_point_4.jpg" alt="Sector 4" width="300" height="200">
+                        <div class="sectors-card-info-section">
+                            <img src="assets/priority_point_icon_4.png" alt="logo">
+                            <h3>Disaster Preparedness</h3>
+                            <p>
+                                Driving efficiency and productivity in the manufacturing
+                                sector.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="timeline" class="timeline">
+        <div class="timeline-container">
+            <div class="timeline-content">
+                <h2>Timeline</h2>
+                <div class="applicantion_details">
+                    <p>Applicants are encouraged to propose infrastructure solutions that can address specific
+                        climate impacts
+                        in rural, peri-urban, or urban settings, contributing to the stability and resilience of
+                        both local economies
+                        and broader social systems.
+                        <br>
+                        The fund prioritizes approaches that are sustainable, technically viable, inclusive, and
+                        capable of
+                        creating lasting climate resilience beyond the initial funding period.
+                    </p>
+                    <button>Apply now</button>
+                </div>
+            </div>
+            <section class="cd-horizontal-timeline">
+                <div class="timeline">
+                    <div class="events-wrapper">
+                        <div class="events">
+                            <ol>
+                                <li><a href="#0" data-date="16/01/2014" class="selected">10 Jan</a></li>
+                                <li><a href="#0" data-date="28/02/2014">29 Jan</a></li>
+                                <li><a href="#0" data-date="20/04/2014">11 Feb</a></li>
+                                <li><a href="#0" data-date="20/05/2014">17 Feb</a></li>
+                                <li><a href="#0" data-date="09/07/2014">25 Feb</a></li>
+                                <li><a href="#0" data-date="30/08/2014">2 April</a></li>
+                                <li><a href="#0" data-date="15/09/2014">16 May</a></li>
+                                <li><a href="#0" data-date="01/11/2014">July</a></li>
+                                <li><a href="#0" data-date="10/12/2014">13 Aug</a></li>
+                                <li><a href="#0" data-date="19/01/2015">27 Aug</a></li>
+                            </ol>
+
+                            <span class="filling-line" aria-hidden="true"></span>
+                        </div> <!-- .events -->
+                    </div> <!-- .events-wrapper -->
+
+                    <ul class="cd-timeline-navigation">
+                        <li><a href="#0" class="prev inactive">Prev</a></li>
+                        <li><a href="#0" class="next">Next</a></li>
+                    </ul> <!-- .cd-timeline-navigation -->
+                </div> <!-- .timeline -->
+
+                <div class="events-content">
+                    <ol>
+                        <li class="selected" data-date="16/01/2014">
+                            <h2>Challenge Fund Call for Proposals is launched</h2>
+                            <em>January 10th, 2025</em>
+                            <!-- <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p> -->
+                        </li>
+
+                        <li data-date="28/02/2014">
+                            <h2>Event title here</h2>
+                            <em>February 28th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="20/04/2014">
+                            <h2>Event title here</h2>
+                            <em>March 20th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="20/05/2014">
+                            <h2>Event title here</h2>
+                            <em>May 20th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="09/07/2014">
+                            <h2>Event title here</h2>
+                            <em>July 9th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="30/08/2014">
+                            <h2>Event title here</h2>
+                            <em>August 30th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="15/09/2014">
+                            <h2>Event title here</h2>
+                            <em>September 15th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="01/11/2014">
+                            <h2>Event title here</h2>
+                            <em>November 1st, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="10/12/2014">
+                            <h2>Event title here</h2>
+                            <em>December 10th, 2014</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                        <li data-date="19/01/2015">
+                            <h2>Event title here</h2>
+                            <em>January 19th, 2015</em>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia,
+                                fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic
+                                repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi
+                                reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae,
+                                temporibus dolores porro doloribus.
+                            </p>
+                        </li>
+
+                    </ol>
+                </div> <!-- .events-content -->
+            </section>
+        </div>
+    </section>
+
+    <div class="carousel-unique">
+        <div class="progress-bar-primary-unique hide-on-desktop-unique">
+            <div class="progress-bar-fill-unique"></div>
+        </div>
+
+        <header class="main-post-wrapper-unique">
+            <div class="slides-unique">
+                <article class="main-post-unique main-post-active-unique">
+                    <div class="main-post-image-unique">
+                        <img src="assets/coming_up_1.jpg" alt="Webinar" loading="lazy" />
+                    </div>
+                    <div class="main-post-content-unique">
+                        <div class="main-post-tag-wrapper-unique">
+                            <span class="main-post-tag-unique">Webinar</span>
+                        </div>
+                        <h1 class="main-post-title-unique">Webinar for Applicants</h1>
+                        <p>Join us for an insightful webinar on climate resilience strategies.</p>
+                        <a class="main-post-link-unique" href="#">
+                            <span class="main-post-link-text-unique">Learn More</span>
+                            <svg class="main-post-link-icon-arrow-unique" width="37" height="12" viewBox="0 0 37 12"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                <article class="main-post-unique main-post-not-active-unique">
+                    <div class="main-post-image-unique">
+                        <img src="assets/coming_up_3.jpg" alt="Meetup" loading="lazy" />
+                    </div>
+                    <div class="main-post-content-unique">
+                        <div class="main-post-tag-wrapper-unique">
+                            <span class="main-post-tag-unique">Meetup</span>
+                        </div>
+                        <h1 class="main-post-title-unique">Award Ceremony</h1>
+                        <p>Engage with like-minded individuals at our upcoming meetup.</p>
+                        <a class="main-post-link-unique" href="#">
+                            <span class="main-post-link-text-unique">Learn More</span>
+                            <svg class="main-post-link-icon-arrow-unique" width="37" height="12" viewBox="0 0 37 12"
+                                fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+                <!-- <article class="main-post-unique main-post-not-active-unique">
+                    <div class="main-post-image-unique">
+                        <img src="assets/coming_up_3.jpg" alt="Presentation" loading="lazy" />
+                    </div>
+                    <div class="main-post-content-unique">
+                        <div class="main-post-tag-wrapper-unique">
+                            <span class="main-post-tag-unique">Presentation</span>
+                        </div>
+                        <h1 class="main-post-title-unique">Presentation on Innovative Solutions</h1>
+                        <p>Discover innovative solutions in our upcoming presentation.</p>
+                        <a class="main-post-link-unique" href="#">
+                            <span class="main-post-link-text-unique">Learn More</span>
+                            <svg class="main-post-link-icon-arrow-unique" width="37" height="12" viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </article> -->
+            </div>
+        </header>
+
+        <div class="posts-wrapper-unique hide-on-mobile-unique">
+            <article class="post-unique post-active-unique">
+                <div class="progress-bar-unique">
+                    <div class="progress-bar-fill-unique"></div>
+                </div>
+                <header class="post-header-unique">
+                    <span class="post-tag-unique">Webinar</span>
+                    <p class="post-published-unique">29 January 2025</p>
+                </header>
+                <h2 class="post-title-unique">Webinar for Applicants</h2>
+            </article>
+            <article class="post-unique">
+                <div class="progress-bar-unique">
+                    <div class="progress-bar-fill-unique"></div>
+                </div>
+                <header class="post-header-unique">
+                    <span class="post-tag-unique">Event</span>
+                    <p class="post-published-unique">27 August 2025</p>
+                </header>
+                <h2 class="post-title-unique">Award Ceremony</h2>
+            </article>
+            <!-- <article class="post-unique">
+                <div class="progress-bar-unique">
+                    <div class="progress-bar-fill-unique"></div>
+                </div>
+                <header class="post-header-unique">
+                    <span class="post-tag-unique">Presentation</span>
+                    <p class="post-published-unique">20 October 2023</p>
+                </header>
+                <h2 class="post-title-unique">Presentation on Innovative Solutions</h2>
+            </article> -->
+        </div>
+    </div>
+
+    <div class="apply_now_section">
+        <div class="apply_now_container">
+            <div class="apply_now_content">
+                <div class="apply_now_text">
+                    <div class="apply_now_text_content">
+                        <h2>Apply Now</h2>
+                        <p>Applicants are encouraged to propose infrastructure solutions that can address specific climate impacts in rural, peri-urban, or urban settings, contributing to the stability and resilience of both local economies and broader social systems. While the fund welcomes diverse project types, it prioritizes approaches that are sustainable, technically viable, inclusive, and capable of creating lasting climate resilience beyond the initial funding period.</p>
+                    </div>
+                    <div>
+                        <button class="download_btn">Download Guidelines <i class="ri-download-line"></i></button>
+                    </div>
+                </div>
+                <button class="apply_now_btn">Apply Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-wrapper">
+            <div class="contact-grid">
+                <div class="contact-form-section">
+                    <h2 class="contact-title">Get in Touch</h2>
+                    <form id="contactForm">
+                        <div class="contact-form-group">
+                            <input type="text" class="contact-form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="contact-form-group">
+                            <input type="email" class="contact-form-control" id="email" placeholder="Your Email"
+                                required>
+                        </div>
+                        <div class="contact-form-group">
+                            <textarea class="contact-form-control" id="message" rows="4" placeholder="Your Message"
+                                required></textarea>
+                        </div>
+                        <div class="contact-form-bottom">
+                            <button type="submit" class="contact-btn">Send Message</button>
+                            <div class="social-icons-contact">
+                                <a href="#" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a>
+                                <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- <div class="contact-info-section">
+                        <div class="contact-info-item">
+                            <i class="ri-map-pin-line ri-xl"></i>
+                            <span>123 Business Ave, New York, NY 10001</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="ri-phone-line ri-xl"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-info-item">
+                            <i class="ri-mail-line ri-xl"></i>
+                            <span>contact@example.com</span>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="contact-map-section">
+                    <h2>Frequently Asked Questions</h2>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425878459418!3d40.74076294379132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80da61087cc123c!2sNew%20York%2C%20NY%2010001!5e0!3m2!1sen!2sus!4v1658887678539!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <ul class="accordion-list">
+                        <li>
+                            <div class="faq_top">
+                                <h3>Who can apply for the Challenge Fund?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>The Challenge Fund is open to Small and Medium Enterprises (SMEs), Non-Governmental Organizations (NGOs), startups, social enterprises, and informal groups, provided informal groups partner with an eligible organization.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="faq_top">
+                                <h3>Are groups like women's collectives or youth initiatives eligible to apply?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>Yes, informal groups, such as women's collectives or youth-led initiatives, may apply by partnering with an eligible organization like an NGO, which would act as the primary applicant.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="faq_top">
+                                <h3>Can applicants partner with local government agencies?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>Logo projects typically cost between $3,000 - $5000.</p>
+                                <p>"Why so much?" many people ask. To answer simply - because they require a lot of
+                                    work. At least, to do them properly. And of all of the investments that you will
+                                    make for your business, your logo & branding is one area where you don't want to
+                                    skimp.</p>
+
+                                <p>In business, image is everything. And while your overall brand is based on far more
+                                    than just your logo, a bad logo can create a strong first impression (for better or
+                                    for worse).</p>
+
+                                <p>A properly designed logo requires hours of research, and hundreds of sketches and
+                                    iterations. And with an increasing number of branded businesses in the world, doing
+                                    research to verify that your mark is unique is a tedious yet necessary part of the
+                                    process.</p>
+
+                                <p>With each logo project that we complete, we provide 3 - 5 unique logo concepts, a
+                                    branding guide that details how to properly use the logo, several versions of the
+                                    logo that are print-ready, and can be sent to any printer or publisher for easy use,
+                                    detailed color schemes, typography & associated fonts, and design samples of your
+                                    new logo.</p>
+
+                                <p>Click here to learn more about how we approach our logo projects, and why we believe
+                                    that we are the top logo & branding agency in the area.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="faq_top">
+                                <h3>What are the deadlines for the concept submission and full proposal stages?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>Experience, quality, and results.</p>
+                                <p><strong>Experience.</strong> We have been designing websites professional since the
+                                    early days of the web - before CSS was mainstream, and people still used tables for
+                                    their website layouts. In the 20+ years that we have been doing this, we have work
+                                    with and learned from many of the top voices in several industries. To put it simply
+                                    - there are very few people in the world, let alone the area that can top our years
+                                    of experience.</p>
+
+                                <p><strong>Quality</strong> At Right Creative, we hold an almost unrealistic standard
+                                    for quality. We demand excellence in every project we take on, and firmly believe
+                                    that the quality of our work demonstrates our commitment to these standards.</p>
+
+                                <p><strong>Results</strong> More than anything else, our focus is, and will always be
+                                    getting results for clients. We don't care how pretty something is - if it is not
+                                    resulting in the growth or obtaining of goals for our clients, then it is not time
+                                    or money well spent. Our mission is to turn visitors into paying customers - and
+                                    every decision that we make is rooted in that mission.</p>
+
+                                <p><strong>Other distinguishing features</strong> Some of the other things that separate
+                                    Right Creative from other top-rated agencies are: we hand-code all of our websites
+                                    for maximum results. We don't rely on Wordpress, plugins, templates or themes to
+                                    accomplish things, and are therefore not locked in to the limits they pose.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="faq_top">
+                                <h3>How will I know if my concept has been shortlisted for the full proposal stage?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>We started this business from scratch, and know full-well how tight money can be when
+                                    you are first starting out. We empathize with the struggles of new business owners,
+                                    and therefore work diligently so that the new businesses that we work with succeed.
+                                </p>
+
+                                <p>The primary criteria we look for when working with new businesses is the seriousness
+                                    of the business owner. While it is natural for a new business owner to be cautious
+                                    with the money they spend - we do look for a commitment to growth. If you do not
+                                    have a specific plan for how you intend to grow your business, then the reality is -
+                                    you will probably never be in a good position to afford our services.</p>
+
+                                <p>With that said - if you are growth-minded, then we are happy to help you achieve that
+                                    growth, and are willing to work with you to come up with a plan that fits within
+                                    your budget and comfort level. Whether this is a smaller site, financing options, or
+                                    a payment plan - we are confident that we can figure out something that will be
+                                    mutually beneficial.</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="faq_top">
+                                <h3>Can I submit the concept summary in a language other than English?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>The difference between pre-designed and custom sites is a lot like the difference
+                                    between buying a home versus building a home.</p>
+
+                                <p>Pre-designed sites start with a website that has already been designed and coded.
+                                    These sites will allow you to customize colors, fonts, photos, content, and your
+                                    logo - but does not allow you to rearrange, reposition, or change the layout of the
+                                    site. This option is great for newer businesses or businesses with a smaller budget.
+                                    You not only get the benefit of a hand-coded, customized site, but you also benefit
+                                    from a smaller price tag and faster turnaround time.</p>
+
+                                <p>Custom sites are built from scratch, exactly to your businesses needs. While custom
+                                    sites often have a bigger price tag attached to them, they are also going to be more
+                                    effective at converting your visitors into paying customers.</p>
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="faq_top">
+                                <h3>What criteria will be used to evaluate applications?</h3>
+                                <i class="ri-add-line"></i>
+                            </div>
+                            <div class="answer">
+                                <p>Yes and no. With each client that we work with, we designate time to figure out what
+                                    content clients will need to edit on a regular basis, and create tools to allow them
+                                    to do that easily. For things such as news, articles, blogs, and portfolios, clients
+                                    will have access to the Content Management System, and add/edit/delete those things
+                                    as needed.</p>
+
+                                <p>For other areas of the site, we request that our clients trust us to make those
+                                    edits, so to maintain the integrity of their website.</p>
+
+                                <p>It is very common for clients who have full control over their site to see it
+                                    deteriorate after a while due to non-designers & non-developers adding content to
+                                    the site using markup & styling that is not cohesive with the rest of the site. What
+                                    results is a website filled with pages containing broken-looking content, and
+                                    improperly formatted text.</p>
+
+                                <p>Because we care about the quality of our sites, the reputations of our clients, and
+                                    the results that they see - we prefer to let our clients be the experts at what they
+                                    do - and us to be the experts at what we do.</p>
+
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-wrapper">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-top">
+                    <div class="logo">
+                        <img src="/assets/Website_logo_white.png" alt="Logo" height="60">
+                    </div>
+                    <div class="social-icons-footer">
+                        <a href="#" aria-label="Facebook"><i class="ri-facebook-circle-fill"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="ri-twitter-x-fill"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-middle">
+                    <div class="footer-policy-links">
+                        <a href="/privacy" class="footer-link">Privacy</a>
+                        <a href="/policy" class="footer-link">Policy</a>
+                    </div>
+
+                    <nav class="footer-nav-links">
+                        <a href="/" class="footer-link">Home</a>
+                        <a href="/our-works" class="footer-link">Our works</a>
+                        <a href="/about" class="footer-link">About</a>
+                        <a href="/blog" class="footer-link">Blog</a>
+                        <a href="/contact" class="footer-link">Contact</a>
+                    </nav>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>Copyright 2019. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
